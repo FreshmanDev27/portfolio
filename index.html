@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Athirin's Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero{
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 0 30px rgba(0,0,0,.3);
+}
+
+.hero h1{
+    font-size:3.5rem;
+}
+
+.hero h2{
+    color:#60a5fa;
+    margin-top:10px;
+}
+
+.hero p{
+    margin-top:15px;
+    font-size:1.1rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 28px;
+    text-decoration:none;
+    color:white;
+    border:2px solid #60a5fa;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#60a5fa;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
+    font-size:2rem;
+    color:#60a5fa;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    padding:25px;
+    border-radius:20px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <h1>Athirin Wiwatchaiyachan</h1>
+        <h2>M.3/1 • No.27</h2>
+        <p>Student • Biology Enthusiast • Mathematics Lover</p>
+        <a href="#about" class="btn">Learn More</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+        <p>
+            Hello! My name is Athirin Wiwatchaiyachan.
+            I am a student in M.3/1. I enjoy learning about
+            biology and mathematics because they help me
+            understand how life works and how problems can
+            be solved logically.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">My Interests</h2>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>🧬 Biology</h3>
+            <p>
+                I enjoy studying living organisms, genetics,
+                ecosystems, and how life functions.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📐 Mathematics</h3>
+            <p>
+                I like solving mathematical problems and
+                exploring patterns and logical thinking.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>💻 Technology</h3>
+            <p>
+                I am interested in web development and
+                learning how websites are created.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Skills</h2>
+
+    <div class="card-container">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">Problem Solving</div>
+        <div class="card">Critical Thinking</div>
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Goals</h2>
+
+    <div class="card">
+        <p>
+            My goal is to continue improving my knowledge in
+            biology, mathematics, and technology while developing
+            skills that will help me in future studies and careers.
+        </p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Athirin Wiwatchaiyachan
+</footer>
+
+</body>
+</html>
